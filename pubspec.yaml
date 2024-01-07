@@ -16,6 +16,9 @@ dependencies:
   #Bento UI
   flutter_staggered_grid_view: ^0.7.0
 
+  #InAppTour
+  tutorial_coach_mark: ^1.2.11
+
   lottie: ^2.7.0
 
 dev_dependencies:
