@@ -17,6 +17,8 @@ class Assets {
   static const String IMG_TANAH = '${IMAGES_PATH}img-tanah.jpg';
   static const String IMG_KUTA = '${IMAGES_PATH}img-kuta.jpg';
 
+  static const String IMG_DESK = '${IMAGES_PATH}img-desk.jpg';
+
   //Lottie
   static const String LOTTIE_MUSIC = '${LOTTIES_PATH}lottie-music.json';
 }
