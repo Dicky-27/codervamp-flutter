@@ -10,4 +10,5 @@ A curated collection of awesome Flutter widgets and packages for easy navigation
 ### 🔗 InAppTour: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/inapptour/tour_home.dart)
 ### 🔗 Neumorphism: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/neumorphism/neumorphism.dart)
 ### 🔗 Tooltip: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/tooltip/toolip.dart)
+### 🔗 Animated Text & Swipeable Button: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/animation/text/animated_text.dart)
 
