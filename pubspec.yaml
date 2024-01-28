@@ -12,6 +12,7 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  lottie: ^2.7.0
 
   #Bento UI
   flutter_staggered_grid_view: ^0.7.0
@@ -19,7 +20,9 @@ dependencies:
   #InAppTour
   tutorial_coach_mark: ^1.2.11
 
-  lottie: ^2.7.0
+  #Animated Text
+  animated_text_kit: ^4.2.2
+  swipeable_button_view: ^0.0.2
 
 dev_dependencies:
   flutter_test:
