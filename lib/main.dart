@@ -1,4 +1,4 @@
-import 'package:codervamp/animation/text/animated_text.dart';
+import 'package:codervamp/qr/qr_generator.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,10 +14,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        brightness: Brightness.dark,
+        primaryColor: Colors.teal,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const AnimatedTextWidget(),
+      home: const QRGeneratorWidget(),
     );
   }
 }
