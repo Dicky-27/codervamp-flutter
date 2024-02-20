@@ -6,17 +6,19 @@ class FrostedGlassBoxWidget extends StatelessWidget {
   final double width;
   final double height;
   final Widget child;
+  final double borderRadius;
 
   const FrostedGlassBoxWidget(
       {super.key,
       required this.width,
       required this.height,
-      required this.child});
+      required this.child,
+      this.borderRadius = 30});
 
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
-      borderRadius: BorderRadius.circular(30),
+      borderRadius: BorderRadius.circular(borderRadius),
       child: Container(
         color: Colors.transparent,
         width: width,
@@ -29,7 +31,7 @@ class FrostedGlassBoxWidget extends StatelessWidget {
             ),
             Container(
               decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(30),
+                  borderRadius: BorderRadius.circular(borderRadius),
                   border: Border.all(color: Colors.white.withOpacity(0.13)),
                   gradient: LinearGradient(
                       begin: Alignment.topLeft,

@@ -156,7 +156,6 @@ class _QRGeneratorWidgetState extends State<QRGeneratorWidget> {
         padding: const EdgeInsets.all(20),
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            // Background gradient
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [Colors.deepPurple, Colors.teal],

@@ -1,4 +1,4 @@
-import 'package:codervamp/qr/qr_generator.dart';
+import 'package:codervamp/snackbar/custom_snackbar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.teal,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const QRGeneratorWidget(),
+      home: const CustomSnackbar(),
     );
   }
 }
