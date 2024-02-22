@@ -22,4 +22,5 @@ class Assets {
   //Lottie
   static const String LOTTIE_MUSIC = '${LOTTIES_PATH}lottie-music.json';
   static const String LOTTIE_MONKEY = '${LOTTIES_PATH}lottie-monkey.json';
+  static const String LOTTIE_DELIVERY = '${LOTTIES_PATH}lottie-delivery.json';
 }
