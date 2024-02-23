@@ -23,3 +23,8 @@ A curated collection of awesome Flutter widgets and packages for easy navigation
 ### 🔗 Custom Snackbar: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/snackbar/custom_snackbar.dart)
 
 ### 🔗 Stepper: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/stepper/custom_stepper.dart)
+
+
+## Clone
+
+### 🔗 Instagram: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/clone/instagram/instagram_clone.dart)

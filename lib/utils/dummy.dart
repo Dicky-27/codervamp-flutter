@@ -60,4 +60,41 @@ class Dummy {
       "location": "Kuta, Bali",
     },
   ];
+
+  static List<Map<String, String>> stories = [
+    {'name': 'Debra', 'image': Assets.IMG_PROFILE_1},
+    {'name': 'Leslie', 'image': Assets.IMG_SONG},
+    {'name': 'Ann', 'image': Assets.IMG_TANAH},
+    {'name': 'John', 'image': Assets.IMG_NUSA},
+    {'name': 'Budi', 'image': Assets.IMG_DESK},
+    {'name': 'Ray', 'image': Assets.IMG_KARANGASEM},
+    {'name': 'Fey', 'image': Assets.IMG_KUTA},
+  ];
+
+  static List<Map<String, String>> posts = [
+    {
+      "name": "Debra",
+      "profileImage": Assets.IMG_PROFILE_1,
+      "image": Assets.IMG_BULELENG,
+      "likes": "24,002",
+      "caption":
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "John",
+      "profileImage": Assets.IMG_NUSA,
+      "image": Assets.IMG_NUSA,
+      "likes": "4,002",
+      "caption":
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Ray",
+      "profileImage": Assets.IMG_KARANGASEM,
+      "image": Assets.IMG_KUTA,
+      "likes": "24,002",
+      "caption":
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+  ];
 }

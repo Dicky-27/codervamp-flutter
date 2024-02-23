@@ -1,4 +1,4 @@
-import 'package:codervamp/stepper/custom_stepper.dart';
+import 'package:codervamp/clone/instagram/instagram_clone.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,12 +13,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        brightness: Brightness.dark,
-        primaryColor: Colors.teal,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: const CustomStepper(),
+      // theme: ThemeData(
+      //   brightness: Brightness.dark,
+      //   primaryColor: Colors.teal,
+      //   visualDensity: VisualDensity.adaptivePlatformDensity,
+      // ),
+      home: const InstagramClone(),
     );
   }
 }
