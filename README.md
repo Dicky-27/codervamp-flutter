@@ -24,6 +24,7 @@ A curated collection of awesome Flutter widgets and packages for easy navigation
 
 ### 🔗 Stepper: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/stepper/custom_stepper.dart)
 
+### 🔗 Appearance: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/appearance/appearance.dart)
 
 ## Clone
 
