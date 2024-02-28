@@ -1,5 +1,5 @@
-import 'package:codervamp/appearance/utils/colors.dart';
-import 'package:codervamp/appearance/utils/themes.dart';
+import 'package:codervamp/widgets/appearance/utils/colors.dart';
+import 'package:codervamp/widgets/appearance/utils/themes.dart';
 import 'package:flutter/material.dart';
 
 class AppearanceApp extends StatelessWidget {

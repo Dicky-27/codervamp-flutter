@@ -1,5 +1,5 @@
-import 'package:codervamp/tooltip/components/bullet_icon.dart';
-import 'package:codervamp/tooltip/components/tooltip_custom_shape.dart';
+import 'package:codervamp/widgets/tooltip/components/bullet_icon.dart';
+import 'package:codervamp/widgets/tooltip/components/tooltip_custom_shape.dart';
 import 'package:codervamp/utils/assets.dart';
 import 'package:flutter/material.dart';
 

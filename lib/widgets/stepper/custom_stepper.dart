@@ -1,4 +1,4 @@
-import 'package:codervamp/stepper/components/vertical_step_tracker.dart';
+import 'package:codervamp/widgets/stepper/components/vertical_step_tracker.dart';
 import 'package:codervamp/utils/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

@@ -1,4 +1,4 @@
-import 'package:codervamp/glassmorphism/components/frostedglassbox.dart';
+import 'package:codervamp/widgets/glassmorphism/components/frostedglassbox.dart';
 import 'package:flutter/material.dart';
 
 class CustomSnackbar extends StatefulWidget {

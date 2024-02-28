@@ -1,4 +1,4 @@
-import 'package:codervamp/clone/instagram/instagram_clone.dart';
+import 'package:codervamp/speedcode/coffe/coffe_app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: InstagramClone(),
+      home: CoffeApp(),
     );
   }
 }

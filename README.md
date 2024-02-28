@@ -4,28 +4,30 @@
 
 A curated collection of awesome Flutter widgets and packages for easy navigation. Enjoy exploring!
 
-## 📚 Contents
+## 📚 Widgets
 
-### 🔗 Bento: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/bento/bento.dart)
+### 🔗 Bento: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/bento/bento.dart)
 
-### 🔗 Glassmorphism: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/glassmorphism/glassmorphism.dart)
+### 🔗 Glassmorphism: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/glassmorphism/glassmorphism.dart)
 
-### 🔗 InAppTour: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/inapptour/tour_home.dart)
+### 🔗 InAppTour: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/inapptour/tour_home.dart)
 
-### 🔗 Neumorphism: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/neumorphism/neumorphism.dart)
+### 🔗 Neumorphism: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/neumorphism/neumorphism.dart)
 
-### 🔗 Tooltip: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/tooltip/toolip.dart)
+### 🔗 Tooltip: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/tooltip/toolip.dart)
 
-### 🔗 Animated Text & Swipeable Button: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/animation/text/animated_text.dart)
+### 🔗 Animated Text & Swipeable Button: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/animation/text/animated_text.dart)
 
-### 🔗 QR Generator: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/qr/qr_generator.dart)
+### 🔗 QR Generator: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/qr/qr_generator.dart)
 
-### 🔗 Custom Snackbar: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/snackbar/custom_snackbar.dart)
+### 🔗 Custom Snackbar: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/snackbar/custom_snackbar.dart)
 
-### 🔗 Stepper: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/stepper/custom_stepper.dart)
+### 🔗 Stepper: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/stepper/custom_stepper.dart)
 
-### 🔗 Appearance: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/appearance/appearance.dart)
+### 🔗 Appearance: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/appearance/appearance.dart)
 
-## Clone
+## 📚 Speedcode
 
-### 🔗 Instagram: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/clone/instagram/instagram_clone.dart)
+### 🔗 Instagram: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/speedcode/instagram/instagram_clone.dart)
+
+### 🔗 Coffee Shop: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/speedcode/coffe/coffe_app.dart)

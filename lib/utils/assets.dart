@@ -12,7 +12,8 @@ class Assets {
   static const String IC_DM = '${ICONS_PATH}ic-dm.svg';
   static const String IC_MORE = '${ICONS_PATH}ic-more.svg';
   static const String IC_COMMENT = '${ICONS_PATH}ic-comment.svg';
-  static const String IC_SAVE= '${ICONS_PATH}ic-save.svg';
+  static const String IC_SAVE = '${ICONS_PATH}ic-save.svg';
+  static const String IC_FURNITUR = '${ICONS_PATH}ic-furnitur.svg';
 
   //IMG
   static const String IMG_SONG = '${IMAGES_PATH}img-song.jpg';
@@ -27,6 +28,11 @@ class Assets {
   static const String IMG_DESK = '${IMAGES_PATH}img-desk.jpg';
 
   static const String IMG_PROFILE_1 = '${IMAGES_PATH}img-profile-1.jpg';
+
+  static const String IMG_BANNER = '${IMAGES_PATH}img-banner.png';
+  static const String IMG_C_PROFILE = '${IMAGES_PATH}img-c-profile.png';
+  static const String IMG_COFFE_1 = '${IMAGES_PATH}img-coffe-1.png';
+  static const String IMG_COFFE_2 = '${IMAGES_PATH}img-coffe-2.png';
 
   //Lottie
   static const String LOTTIE_MUSIC = '${LOTTIES_PATH}lottie-music.json';

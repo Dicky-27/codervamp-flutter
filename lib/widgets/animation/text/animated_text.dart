@@ -1,4 +1,4 @@
-import 'package:codervamp/animation/animation.dart';
+import 'package:codervamp/widgets/animation/animation.dart';
 import 'package:codervamp/utils/assets.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
