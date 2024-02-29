@@ -29,10 +29,21 @@ class Assets {
 
   static const String IMG_PROFILE_1 = '${IMAGES_PATH}img-profile-1.jpg';
 
+  // COFFE APP
   static const String IMG_BANNER = '${IMAGES_PATH}img-banner.png';
   static const String IMG_C_PROFILE = '${IMAGES_PATH}img-c-profile.png';
   static const String IMG_COFFE_1 = '${IMAGES_PATH}img-coffe-1.png';
   static const String IMG_COFFE_2 = '${IMAGES_PATH}img-coffe-2.png';
+
+  //NFTAPP
+  static const String IMG_COLL_1 = '${IMAGES_PATH}img-coll-1.png';
+  static const String IMG_COLL_2 = '${IMAGES_PATH}img-coll-2.png';
+  static const String IMG_COLL_3 = '${IMAGES_PATH}img-coll-3.png';
+
+  static const String IMG_NFT_1 = '${IMAGES_PATH}img-nft-1.png';
+  static const String IMG_NFT_2 = '${IMAGES_PATH}img-nft-2.png';
+  static const String IMG_NFT_3 = '${IMAGES_PATH}img-nft-3.png';
+  static const String IMG_NFT_4 = '${IMAGES_PATH}img-nft-4.png';
 
   //Lottie
   static const String LOTTIE_MUSIC = '${LOTTIES_PATH}lottie-music.json';

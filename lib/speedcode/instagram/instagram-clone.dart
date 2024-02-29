@@ -1,6 +1,6 @@
-import 'package:codervamp/speedcode/instagram/components/ig_appbar_widget.dart';
-import 'package:codervamp/speedcode/instagram/components/post_widget.dart';
-import 'package:codervamp/speedcode/instagram/components/story_widget.dart';
+import 'package:codervamp/speedcode/instagram/components/ig-appbar-widget.dart';
+import 'package:codervamp/speedcode/instagram/components/post-widget.dart';
+import 'package:codervamp/speedcode/instagram/components/story-widget.dart';
 import 'package:codervamp/utils/assets.dart';
 import 'package:codervamp/utils/dummy.dart';
 import 'package:flutter/material.dart';

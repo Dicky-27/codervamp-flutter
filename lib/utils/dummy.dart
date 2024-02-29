@@ -96,5 +96,62 @@ class Dummy {
       "caption":
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
-  ]; 
+  ];
+
+  static List<Map<String, dynamic>> nftsCollections = [
+    {
+      "image": Assets.IMG_COLL_1,
+      "title": "Gorillax Club",
+      "nfts": 1,
+      "subtitle": "Collection, Art",
+      "price": "10343.31",
+      "percent": "+241.29%",
+      "isIncrease": true
+    },
+    {
+      "image": Assets.IMG_COLL_2,
+      "title": "Ugly Cats",
+      "nfts": 2,
+      "subtitle": "Collection, Art",
+      "price": "10443.1",
+      "percent": "-21.29%",
+      "isIncrease": false
+    },
+    {
+      "image": Assets.IMG_COLL_3,
+      "title": "Zombies",
+      "nfts": 3,
+      "subtitle": "Collection, Art",
+      "price": "10143.31",
+      "percent": "-11.29%",
+      "isIncrease": false
+    }
+  ];
+
+  static List<Map<String, dynamic>> nfts = [
+    {
+      "title": "Sonic #23",
+      "category": "ART",
+      "price": "\$1.23",
+      "image": Assets.IMG_NFT_1
+    },
+    {
+      "title": "Decentr.e #102",
+      "category": "ART",
+      "price": "\$1.23",
+      "image": Assets.IMG_NFT_2
+    },
+    {
+      "title": "Airplane #21",
+      "category": "ART",
+      "price": "\$1.23",
+      "image": Assets.IMG_NFT_3
+    },
+    {
+      "title": "Nft #27",
+      "category": "ART",
+      "price": "\$1.23",
+      "image": Assets.IMG_NFT_4
+    }
+  ];
 }

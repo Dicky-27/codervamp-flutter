@@ -31,3 +31,5 @@ A curated collection of awesome Flutter widgets and packages for easy navigation
 ### 🔗 Instagram: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/speedcode/instagram/instagram_clone.dart)
 
 ### 🔗 Coffee Shop: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/speedcode/coffe/coffe_app.dart)
+
+### 🔗 NFT App: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/speedcode/nft/nft-app.dart)
