@@ -1,4 +1,3 @@
-import 'package:codervamp/widgets/animation/animation.dart';
 import 'package:codervamp/utils/assets.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -32,22 +31,7 @@ class _AnimatedTextWidgetState extends State<AnimatedTextWidget> {
                   fontSize: 32,
                   fontWeight: FontWeight.w800),
             ),
-            DefaultTextStyle(
-              style: const TextStyle(
-                  fontSize: 32,
-                  color: Colors.white,
-                  fontWeight: FontWeight.w800,
-                  fontStyle: FontStyle.italic),
-              textAlign: TextAlign.center,
-              child: AnimatedTextKit(
-                repeatForever: true,
-                animatedTexts: [
-                  WavyAnimatedText('Exclusive NFTs'),
-                  WavyAnimatedText('Unique Art'),
-                  WavyAnimatedText('Innovative Assets'),
-                ],
-              ),
-            ),
+            const AnimatedTextWidget(),
             const SizedBox(height: 16),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 20),

@@ -1,5 +1,3 @@
-import 'package:codervamp/widgets/appearance/utils/colors.dart';
-import 'package:codervamp/widgets/appearance/utils/themes.dart';
 import 'package:flutter/material.dart';
 
 class AppearanceApp extends StatelessWidget {
@@ -65,3 +63,63 @@ class _AppearanceWidgetState extends State<AppearanceWidget> {
     );
   }
 }
+
+// Colors Setup
+abstract class LightThemeColors {
+  static Color get text => Colors.black;
+  static Color get primary => Colors.white;
+  static Color get secondary => Colors.white;
+}
+
+abstract class DarkThemeColors {
+  static Color get text => Colors.white;
+  static Color get primary => Colors.deepPurple;
+  static Color get secondary => Colors.teal;
+}
+
+abstract class AppColors {
+  static Color text(BuildContext context) => ThemedColor(
+        light: LightThemeColors.text,
+        dark: DarkThemeColors.text,
+      ).getColor(context);
+
+  static Color primary(BuildContext context) => ThemedColor(
+        light: LightThemeColors.primary,
+        dark: DarkThemeColors.primary,
+      ).getColor(context);
+
+  static Color secondary(BuildContext context) => ThemedColor(
+        light: LightThemeColors.secondary,
+        dark: DarkThemeColors.secondary,
+      ).getColor(context);
+}
+
+class ThemedColor {
+  final Color light;
+  final Color dark;
+
+  const ThemedColor({
+    required this.light,
+    required this.dark,
+  });
+
+  Color getColor(BuildContext context) {
+    switch (Theme.of(context).brightness) {
+      case Brightness.light:
+        return light;
+      case Brightness.dark:
+        return dark;
+    }
+  }
+}
+
+final Map<ThemeMode, ThemeData> appThemes = {
+  ThemeMode.light: ThemeData(
+    primaryColor: LightThemeColors.primary,
+    brightness: Brightness.light,
+  ),
+  ThemeMode.dark: ThemeData(
+    primaryColor: DarkThemeColors.primary,
+    brightness: Brightness.dark,
+  )
+};

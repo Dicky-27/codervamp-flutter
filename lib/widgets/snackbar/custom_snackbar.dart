@@ -1,4 +1,4 @@
-import 'package:codervamp/widgets/glassmorphism/components/frostedglassbox.dart';
+import 'package:codervamp/widgets/snackbar/components/snackbar_widget.dart';
 import 'package:flutter/material.dart';
 
 class CustomSnackbar extends StatefulWidget {
@@ -10,24 +10,7 @@ class CustomSnackbar extends StatefulWidget {
 
 class _CustomSnackbarState extends State<CustomSnackbar> {
   void showSnackBar(BuildContext context, [bool isTop = true]) {
-    final snackBar = SnackBar(
-      elevation: 0,
-      content: const FrostedGlassBoxWidget(
-          width: double.maxFinite,
-          height: 50,
-          borderRadius: 11,
-          child: Text(
-            "📢 Yay! A SnackBar!",
-            style: TextStyle(color: Colors.white, fontWeight: FontWeight.w700),
-          )),
-      backgroundColor: Colors.transparent,
-      behavior: SnackBarBehavior.floating,
-      dismissDirection: isTop ? DismissDirection.up : DismissDirection.down,
-      margin: EdgeInsets.only(
-          bottom: isTop ? MediaQuery.of(context).size.height - 160 : 10,
-          left: 10,
-          right: 10),
-    );
+    final snackBar = SnackbarWidget(context, isTop);
     ScaffoldMessenger.of(context).showSnackBar(snackBar);
   }
 

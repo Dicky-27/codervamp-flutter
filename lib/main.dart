@@ -1,4 +1,4 @@
-import 'package:codervamp/speedcode/nft/nft-app.dart';
+import 'package:codervamp/widgets/snackbar/custom_snackbar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: NftApp(),
+      home: CustomSnackbar(),
     );
   }
 }

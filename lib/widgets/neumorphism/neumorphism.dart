@@ -2,14 +2,16 @@ import 'package:codervamp/utils/assets.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class NeumorphismWidget extends StatefulWidget {
-  const NeumorphismWidget({super.key});
+import 'components/neu_decoration.dart';
+
+class Neumorphism extends StatefulWidget {
+  const Neumorphism({super.key});
 
   @override
-  State<NeumorphismWidget> createState() => _NeumorphismWidgetState();
+  State<Neumorphism> createState() => _NeumorphismState();
 }
 
-class _NeumorphismWidgetState extends State<NeumorphismWidget>
+class _NeumorphismState extends State<Neumorphism>
     with TickerProviderStateMixin {
   late AnimationController rotationController;
 
@@ -38,23 +40,7 @@ class _NeumorphismWidgetState extends State<NeumorphismWidget>
                   children: [
                     Container(
                       padding: const EdgeInsets.all(8),
-                      decoration: BoxDecoration(
-                          color: Colors.grey[300],
-                          borderRadius: BorderRadius.circular(20),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.grey.shade500,
-                              offset: const Offset(4, 4),
-                              blurRadius: 10,
-                              spreadRadius: 1,
-                            ),
-                            const BoxShadow(
-                              color: Colors.white,
-                              offset: Offset(-4, -4),
-                              blurRadius: 10,
-                              spreadRadius: 1,
-                            ),
-                          ]),
+                      decoration: NeuDecoration(),
                       child: Icon(
                         CupertinoIcons.arrow_left,
                         size: 20,
@@ -68,23 +54,7 @@ class _NeumorphismWidgetState extends State<NeumorphismWidget>
                             fontWeight: FontWeight.w500)),
                     Container(
                       padding: const EdgeInsets.all(8),
-                      decoration: BoxDecoration(
-                          color: Colors.grey.shade300,
-                          borderRadius: BorderRadius.circular(20),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.grey.shade500,
-                              offset: const Offset(4, 4),
-                              blurRadius: 10,
-                              spreadRadius: 1,
-                            ),
-                            const BoxShadow(
-                              color: Colors.white,
-                              offset: Offset(-4, -4),
-                              blurRadius: 10,
-                              spreadRadius: 1,
-                            ),
-                          ]),
+                      decoration: NeuDecoration(),
                       child: Icon(
                         CupertinoIcons.line_horizontal_3,
                         size: 20,
@@ -103,27 +73,7 @@ class _NeumorphismWidgetState extends State<NeumorphismWidget>
                   turns:
                       Tween(begin: 0.0, end: 1.0).animate(rotationController),
                   child: Container(
-                      decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: Colors.grey.shade300,
-                          border: Border.all(
-                            color: const Color(0xFF87A7FD),
-                            width: 10.0,
-                          ),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.grey.shade500,
-                              offset: const Offset(4, 4),
-                              blurRadius: 15,
-                              spreadRadius: 1,
-                            ),
-                            const BoxShadow(
-                              color: Colors.white,
-                              offset: Offset(-4, -4),
-                              blurRadius: 15,
-                              spreadRadius: 1,
-                            ),
-                          ]),
+                      decoration: PlayNeuDecoration(),
                       child: const CircleAvatar(
                         radius: 180,
                         backgroundImage: AssetImage(Assets.IMG_SONG),
@@ -194,23 +144,7 @@ class _NeumorphismWidgetState extends State<NeumorphismWidget>
                       children: [
                         Container(
                           padding: const EdgeInsets.all(24),
-                          decoration: BoxDecoration(
-                              color: Colors.grey[300],
-                              borderRadius: BorderRadius.circular(48),
-                              boxShadow: [
-                                BoxShadow(
-                                  color: Colors.grey.shade500,
-                                  offset: const Offset(4, 4),
-                                  blurRadius: 10,
-                                  spreadRadius: 1,
-                                ),
-                                const BoxShadow(
-                                  color: Colors.white,
-                                  offset: Offset(-4, -4),
-                                  blurRadius: 10,
-                                  spreadRadius: 1,
-                                ),
-                              ]),
+                          decoration: NeuDecoration(),
                           child: Icon(
                             CupertinoIcons.backward_fill,
                             size: 20,
@@ -219,23 +153,7 @@ class _NeumorphismWidgetState extends State<NeumorphismWidget>
                         ),
                         Container(
                           padding: const EdgeInsets.all(24),
-                          decoration: BoxDecoration(
-                              color: Colors.grey[300],
-                              borderRadius: BorderRadius.circular(48),
-                              boxShadow: [
-                                BoxShadow(
-                                  color: Colors.grey.shade500,
-                                  offset: const Offset(4, 4),
-                                  blurRadius: 10,
-                                  spreadRadius: 1,
-                                ),
-                                const BoxShadow(
-                                  color: Colors.white,
-                                  offset: Offset(-4, -4),
-                                  blurRadius: 10,
-                                  spreadRadius: 1,
-                                ),
-                              ]),
+                          decoration: NeuDecoration(),
                           child: Icon(
                             CupertinoIcons.pause_fill,
                             size: 20,
@@ -244,23 +162,7 @@ class _NeumorphismWidgetState extends State<NeumorphismWidget>
                         ),
                         Container(
                           padding: const EdgeInsets.all(24),
-                          decoration: BoxDecoration(
-                              color: Colors.grey.shade300,
-                              borderRadius: BorderRadius.circular(48),
-                              boxShadow: [
-                                BoxShadow(
-                                  color: Colors.grey.shade500,
-                                  offset: const Offset(4, 4),
-                                  blurRadius: 10,
-                                  spreadRadius: 1,
-                                ),
-                                const BoxShadow(
-                                  color: Colors.white,
-                                  offset: Offset(-4, -4),
-                                  blurRadius: 10,
-                                  spreadRadius: 1,
-                                ),
-                              ]),
+                          decoration: NeuDecoration(),
                           child: Icon(
                             CupertinoIcons.forward_fill,
                             size: 20,
