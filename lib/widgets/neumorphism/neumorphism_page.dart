@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 
 import 'components/neu_decoration.dart';
 
-class Neumorphism extends StatefulWidget {
-  const Neumorphism({super.key});
+class NeumorphismPage extends StatefulWidget {
+  const NeumorphismPage({super.key});
 
   @override
-  State<Neumorphism> createState() => _NeumorphismState();
+  State<NeumorphismPage> createState() => _NeumorphismPageState();
 }
 
-class _NeumorphismState extends State<Neumorphism>
+class _NeumorphismPageState extends State<NeumorphismPage>
     with TickerProviderStateMixin {
   late AnimationController rotationController;
 

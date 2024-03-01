@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:lottie/lottie.dart';
 
-class CustomStepper extends StatelessWidget {
-  const CustomStepper({super.key});
+class StepperPage extends StatelessWidget {
+  const StepperPage({super.key});
 
   @override
   Widget build(BuildContext context) {

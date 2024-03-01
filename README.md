@@ -8,17 +8,17 @@ A curated collection of awesome Flutter widgets and packages for easy navigation
 
 ### 🔗 Tooltip: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/tooltip/toolip.dart)
 
-### 🔗 Custom Snackbar: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/snackbar/custom_snackbar.dart)
+### 🔗 Custom Snackbar: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/snackbar/custom-snackbar.dart)
 
-### 🔗 Stepper: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/stepper/custom_stepper.dart)
+### 🔗 Stepper: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/stepper/stepper-page.dart)
 
-### 🔗 Bento: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/bento/bento.dart)
+### 🔗 Bento: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/bento/bento-page.dart)
 
-### 🔗 Glassmorphism: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/glassmorphism/glassmorphism.dart)
+### 🔗 Glassmorphism: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/glassmorphism/glassmorphism-page.dart)
 
-### 🔗 Neumorphism: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/neumorphism/neumorphism.dart)
+### 🔗 Neumorphism: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/neumorphism/neumorphism-page.dart)
 
-### 🔗 Animated Text & Swipeable Button: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/animation/text/animated_text.dart)
+### 🔗 Animated Text & Swipeable Button: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/animation/text/animated-text-page.dart)
 
 ## 📚 Pages
 

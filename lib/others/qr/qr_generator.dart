@@ -24,14 +24,14 @@ import 'package:qr_flutter/qr_flutter.dart';
 import 'package:share_plus/share_plus.dart';
 import 'dart:ui' as ui;
 
-class QRGeneratorWidget extends StatefulWidget {
-  const QRGeneratorWidget({super.key});
+class QRGeneratorPage extends StatefulWidget {
+  const QRGeneratorPage({super.key});
 
   @override
-  State<QRGeneratorWidget> createState() => _QRGeneratorWidgetState();
+  State<QRGeneratorPage> createState() => _QRGeneratorPageState();
 }
 
-class _QRGeneratorWidgetState extends State<QRGeneratorWidget> {
+class _QRGeneratorPageState extends State<QRGeneratorPage> {
   // MARK: - Initialization
   final TextEditingController _linkController = TextEditingController();
   final GlobalKey _globalKey = GlobalKey();

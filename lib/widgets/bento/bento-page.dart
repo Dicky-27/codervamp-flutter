@@ -2,14 +2,14 @@ import 'package:codervamp/widgets/bento/components/bento_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Bento extends StatefulWidget {
-  const Bento({super.key});
+class BentoPage extends StatefulWidget {
+  const BentoPage({super.key});
 
   @override
-  State<Bento> createState() => _BentoState();
+  State<BentoPage> createState() => _BentoPageState();
 }
 
-class _BentoState extends State<Bento> {
+class _BentoPageState extends State<BentoPage> {
   String searchTerm = "";
 
   @override

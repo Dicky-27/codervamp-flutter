@@ -1,14 +1,14 @@
 import 'package:codervamp/widgets/snackbar/components/snackbar_widget.dart';
 import 'package:flutter/material.dart';
 
-class CustomSnackbar extends StatefulWidget {
-  const CustomSnackbar({super.key});
+class SnackbarPage extends StatefulWidget {
+  const SnackbarPage({super.key});
 
   @override
-  State<CustomSnackbar> createState() => _CustomSnackbarState();
+  State<SnackbarPage> createState() => _SnackbarPageState();
 }
 
-class _CustomSnackbarState extends State<CustomSnackbar> {
+class _SnackbarPageState extends State<SnackbarPage> {
   void showSnackBar(BuildContext context, [bool isTop = true]) {
     final snackBar = SnackbarWidget(context, isTop);
     ScaffoldMessenger.of(context).showSnackBar(snackBar);

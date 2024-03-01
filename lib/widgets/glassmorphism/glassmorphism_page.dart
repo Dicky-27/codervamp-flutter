@@ -4,14 +4,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
-class GlassmorphismWidget extends StatefulWidget {
-  const GlassmorphismWidget({super.key});
+class GlassmorphismPage extends StatefulWidget {
+  const GlassmorphismPage({super.key});
 
   @override
-  State<GlassmorphismWidget> createState() => _GlassmorphismWidgetState();
+  State<GlassmorphismPage> createState() => _GlassmorphismPageState();
 }
 
-class _GlassmorphismWidgetState extends State<GlassmorphismWidget> {
+class _GlassmorphismPageState extends State<GlassmorphismPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

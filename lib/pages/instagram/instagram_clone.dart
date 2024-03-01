@@ -1,8 +1,86 @@
 import 'package:codervamp/utils/assets.dart';
+import 'package:codervamp/utils/dummy.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+class InstagramClone extends StatefulWidget {
+  const InstagramClone({super.key});
+
+  @override
+  State<InstagramClone> createState() => _InstagramCloneState();
+}
+
+class _InstagramCloneState extends State<InstagramClone> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: IgAppbarWidget(trailingWidgets: [
+        SvgPicture.asset(Assets.IC_HT),
+        SvgPicture.asset(Assets.IC_DM)
+      ]),
+      backgroundColor: Colors.white,
+      body: Container(
+        padding: const EdgeInsets.only(top: 8, bottom: 20),
+        child: SingleChildScrollView(
+            child: Column(
+          children: [
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              child: Row(
+                children: List.generate(
+                    Dummy.stories.length,
+                    (index) => StoryWidget(
+                        name: Dummy.stories[index]['name'].toString(),
+                        image: Dummy.stories[index]['image'].toString())),
+              ),
+            ),
+            const SizedBox(height: 8),
+            Column(
+              children: List.generate(
+                  Dummy.posts.length,
+                  (index) => PostWidget(
+                      name: Dummy.posts[index]['name'].toString(),
+                      profileImage:
+                          Dummy.posts[index]['profileImage'].toString(),
+                      image: Dummy.posts[index]['image'].toString(),
+                      likes: Dummy.posts[index]['likes'].toString(),
+                      caption: Dummy.posts[index]['caption'].toString())),
+            ),
+            const SizedBox(height: 20)
+          ],
+        )),
+      ),
+    );
+  }
+}
+
+/// APP BAR
+class IgAppbarWidget extends StatelessWidget implements PreferredSizeWidget {
+  final List<Widget> trailingWidgets;
+
+  const IgAppbarWidget({super.key, required this.trailingWidgets});
+
+  @override
+  Widget build(BuildContext context) {
+    Widget actions;
+    actions = Wrap(spacing: 16, children: trailingWidgets);
+    return SafeArea(
+        child: Padding(
+      padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 24),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [SvgPicture.asset(Assets.IC_IG), actions],
+      ),
+    ));
+  }
+
+  @override
+  Size get preferredSize => const Size.fromHeight(56);
+}
+
+/// POST WIDGET
 class PostWidget extends StatelessWidget {
   final String name;
   final String profileImage;
@@ -112,8 +190,9 @@ class PostWidget extends StatelessWidget {
 
 class ProfileWidget extends StatelessWidget {
   final String profileImage;
+  final double size;
 
-  const ProfileWidget({super.key, required this.profileImage});
+  const ProfileWidget({super.key, required this.profileImage, this.size = 30});
 
   @override
   Widget build(BuildContext context) {
@@ -130,8 +209,8 @@ class ProfileWidget extends StatelessWidget {
       ),
       padding: const EdgeInsets.all(2),
       child: Container(
-        height: 30,
-        width: 30,
+        height: size,
+        width: size,
         padding: const EdgeInsets.all(2),
         decoration:
             const BoxDecoration(color: Colors.white, shape: BoxShape.circle),
@@ -143,6 +222,28 @@ class ProfileWidget extends StatelessWidget {
                   image: AssetImage(profileImage), fit: BoxFit.cover)),
         ),
       ),
+    );
+  }
+}
+
+/// STORY WIDGET
+class StoryWidget extends StatelessWidget {
+  final String name;
+  final String image;
+
+  const StoryWidget({super.key, required this.name, required this.image});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        ProfileWidget(profileImage: image, size: 62),
+        const SizedBox(height: 5),
+        Text(
+          name,
+          style: GoogleFonts.roboto(fontSize: 12, color: Colors.black),
+        )
+      ],
     );
   }
 }

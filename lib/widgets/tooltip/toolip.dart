@@ -2,14 +2,14 @@ import 'package:codervamp/widgets/tooltip/components/tooltip_custom_shape.dart';
 import 'package:codervamp/utils/assets.dart';
 import 'package:flutter/material.dart';
 
-class TooltipWidget extends StatefulWidget {
-  const TooltipWidget({super.key});
+class TooltipPage extends StatefulWidget {
+  const TooltipPage({super.key});
 
   @override
-  State<TooltipWidget> createState() => _TooltipWidgetState();
+  State<TooltipPage> createState() => _TooltipPageState();
 }
 
-class _TooltipWidgetState extends State<TooltipWidget> {
+class _TooltipPageState extends State<TooltipPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

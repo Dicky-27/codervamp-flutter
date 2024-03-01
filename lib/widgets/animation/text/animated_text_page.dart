@@ -1,17 +1,18 @@
 import 'package:codervamp/utils/assets.dart';
+import 'package:codervamp/widgets/animation/text/components/animated_text_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:swipeable_button_view/swipeable_button_view.dart';
 
-class AnimatedTextWidget extends StatefulWidget {
-  const AnimatedTextWidget({super.key});
+class AnimatedTextPage extends StatefulWidget {
+  const AnimatedTextPage({super.key});
 
   @override
-  State<AnimatedTextWidget> createState() => _AnimatedTextWidgetState();
+  State<AnimatedTextPage> createState() => _AnimatedTextPageState();
 }
 
-class _AnimatedTextWidgetState extends State<AnimatedTextWidget> {
+class _AnimatedTextPageState extends State<AnimatedTextPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
