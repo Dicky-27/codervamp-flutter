@@ -13,7 +13,7 @@ class CoffeApp extends StatefulWidget {
 
 class _CoffeAppState extends State<CoffeApp> {
   List<String> categories = ["Cappucino", "Machiato", "Latte", "Americano"];
-  String selectedCaregory = "Cappucino";
+  String selectedCategory = "Cappucino";
 
   @override
   Widget build(BuildContext context) {
@@ -61,13 +61,13 @@ class _CoffeAppState extends State<CoffeApp> {
                       (index) => InkWell(
                           onTap: () {
                             setState(() {
-                              selectedCaregory = categories[index];
+                              selectedCategory = categories[index];
                             });
                           },
                           child: CategoryWidget(
                               title: categories[index],
                               isSelected:
-                                  categories[index] == selectedCaregory))),
+                                  categories[index] == selectedCategory))),
                 ),
               ),
               const SizedBox(height: 20),

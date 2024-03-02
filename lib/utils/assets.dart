@@ -15,6 +15,10 @@ class Assets {
   static const String IC_SAVE = '${ICONS_PATH}ic-save.svg';
   static const String IC_FURNITUR = '${ICONS_PATH}ic-furnitur.svg';
 
+  static const String IC_HOME = '${ICONS_PATH}ic-home.svg';
+  static const String IC_SEARCH = '${ICONS_PATH}ic-search.svg';
+  static const String IC_LIBRARY = '${ICONS_PATH}ic-library.svg';
+
   //IMG
   static const String IMG_SONG = '${IMAGES_PATH}img-song.jpg';
   static const String IMG_BG = '${IMAGES_PATH}img-bg.jpg';
@@ -44,6 +48,11 @@ class Assets {
   static const String IMG_NFT_2 = '${IMAGES_PATH}img-nft-2.png';
   static const String IMG_NFT_3 = '${IMAGES_PATH}img-nft-3.png';
   static const String IMG_NFT_4 = '${IMAGES_PATH}img-nft-4.png';
+
+  //SPOTIFY
+  static const String IMG_PLAY_1 = '${IMAGES_PATH}img-play-1.png';
+  static const String IMG_PLAY_2 = '${IMAGES_PATH}img-play-2.png';
+  static const String IMG_PLAY_3 = '${IMAGES_PATH}img-play-3.png';
 
   //Lottie
   static const String LOTTIE_MUSIC = '${LOTTIES_PATH}lottie-music.json';

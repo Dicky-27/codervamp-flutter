@@ -22,6 +22,8 @@ A curated collection of awesome Flutter widgets and packages for easy navigation
 
 ## 📚 Pages
 
+### 🔗 Spotify: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/pages/spotify/spotify_app.dart)
+
 ### 🔗 Instagram: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/pages/instagram/instagram_clone.dart)
 
 ### 🔗 Coffee Shop: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/pages/coffe/coffe_app.dart)
