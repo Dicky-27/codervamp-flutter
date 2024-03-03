@@ -20,6 +20,8 @@ A curated collection of awesome Flutter widgets and packages for easy navigation
 
 ### 🔗 Animated Text & Swipeable Button: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/animation/text/animated-text-page.dart)
 
+### 🔗 Spotify Appbar: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/spotify_appbar/spotify_playlist_page.dart)
+
 ## 📚 Pages
 
 ### 🔗 Spotify: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/pages/spotify/spotify_app.dart)

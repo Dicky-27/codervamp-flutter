@@ -1,4 +1,4 @@
-import 'package:codervamp/pages/spotify/spotify_app.dart';
+import 'package:codervamp/widgets/spotify_appbar/spotify_playlist_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: SpotifyTabBarPage(),
+      home: SpotifyPlaylistPage(),
     );
   }
 }
