@@ -22,6 +22,8 @@ A curated collection of awesome Flutter widgets and packages for easy navigation
 
 ### 🔗 Spotify Appbar: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/spotify_appbar/spotify_playlist_page.dart)
 
+### 🔗 Multi Select: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/selections/multi_select/multi_select_page.dart)
+
 ## 📚 Pages
 
 ### 🔗 Spotify: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/pages/spotify/spotify_app.dart)
