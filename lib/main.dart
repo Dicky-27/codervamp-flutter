@@ -1,4 +1,4 @@
-import 'package:codervamp/widgets/selections/multi_select/multi_select_page.dart';
+import 'package:codervamp/widgets/expandable/expandable_card_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: MultiSelectPage(),
+      home: ExpandableCardPage(),
     );
   }
 }

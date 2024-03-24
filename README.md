@@ -24,6 +24,8 @@ A curated collection of awesome Flutter widgets and packages for easy navigation
 
 ### 🔗 Multi Select: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/selections/multi_select/multi_select_page.dart)
 
+### 🔗 Expandable Card: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/expandable/expandable_card_page.dart)
+
 ## 📚 Pages
 
 ### 🔗 Spotify: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/pages/spotify/spotify_app.dart)
