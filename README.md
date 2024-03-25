@@ -26,6 +26,8 @@ A curated collection of awesome Flutter widgets and packages for easy navigation
 
 ### 🔗 Expandable Card: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/expandable/expandable_card_page.dart)
 
+### 🔗 Floating Bottom Nav Bar: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/bar/floating_bottom_nav_bar/floating_bottom_nav_bar_page.dart)
+
 ## 📚 Pages
 
 ### 🔗 Spotify: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/pages/spotify/spotify_app.dart)

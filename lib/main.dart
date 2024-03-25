@@ -1,4 +1,4 @@
-import 'package:codervamp/widgets/expandable/expandable_card_page.dart';
+import 'package:codervamp/widgets/bar/floating_bottom_nav_bar/floating_bottom_nav_bar_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: ExpandableCardPage(),
+      home: FloatingBottomNavbarPage(),
     );
   }
 }
