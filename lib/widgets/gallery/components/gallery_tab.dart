@@ -2,7 +2,7 @@ import 'package:codervamp/utils/assets.dart';
 import 'package:flutter/material.dart';
 
 class GalleryTabWidget extends StatefulWidget {
-  const GalleryTabWidget({Key? key});
+  const GalleryTabWidget({super.key});
 
   @override
   State<GalleryTabWidget> createState() => _GalleryTabWidgetState();
@@ -18,7 +18,7 @@ class _GalleryTabWidgetState extends State<GalleryTabWidget> {
     return Column(
       children: [
         TabPanel(image: images[selectedIndex]),
-        const SizedBox(height: 20), // Increased spacing for better visibility
+        const SizedBox(height: 20),
         TabList(
           images: images,
           selectedIndex: (index) {
