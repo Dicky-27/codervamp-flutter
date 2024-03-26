@@ -33,6 +33,10 @@ class Assets {
 
   static const String IMG_PROFILE_1 = '${IMAGES_PATH}img-profile-1.jpg';
 
+  static const String IMG_T1 = '${IMAGES_PATH}img-t-1.jpg';
+  static const String IMG_T2 = '${IMAGES_PATH}img-t-2.jpg';
+  static const String IMG_T3= '${IMAGES_PATH}img-t-3.jpg';
+
   // COFFE APP
   static const String IMG_BANNER = '${IMAGES_PATH}img-banner.png';
   static const String IMG_C_PROFILE = '${IMAGES_PATH}img-c-profile.png';
