@@ -30,6 +30,8 @@ A curated collection of awesome Flutter widgets and packages for easy navigation
 
 ### 🔗 Gallery Tab: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/gallery/gallery_page.dart)
 
+### 🔗 Skeleton: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/widgets/animation/skeleton/skeleton_page.dart)
+
 ## 📚 Pages
 
 ### 🔗 Spotify: [Source Code](https://github.com/Dicky-27/codervamp-flutter/blob/main/lib/pages/spotify/spotify_app.dart)
