@@ -1,4 +1,4 @@
-import 'package:codervamp/widgets/animation/skeleton/skeleton_page.dart';
+import 'package:codervamp/widgets/accordion/accordion_sample_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: SkeletonPage(),
+      home: FaqsPage(),
     );
   }
 }
